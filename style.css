@@ -1040,3 +1040,14 @@ h4 {
         text-align: center;
     }
 }
+
+/* COLOR OPTIMIZATION */
+
+.texture-paper > div{
+    position: static;
+    z-index: 1;
+}
+
+.black-background {
+    background-color: rgba(105, 94, 63, 0.7);
+}

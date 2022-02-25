@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1041,13 +1041,32 @@ h4 {
     }
 }
 
-/* COLOR OPTIMIZATION */
-
-.texture-paper > div{
-    position: static;
-    z-index: 1;
-}
+/* OPTIMIZATION */
 
 .black-background {
     background-color: rgba(105, 94, 63, 0.7);
+}
+
+.tc-white {
+    text-shadow: 0 1px 15px rgba(0,0,0,.5);
+}
+
+.special-line-height{
+    line-height: 22px;
+}
+
+blockquote{
+    border-left: none;
+}
+
+.special-color-white{
+    color: #ffffff!important;
+}
+
+.special-color-black a{
+    color: black!important;
+}
+
+.special-margin-top{
+    margin-top: 40px;
 }
